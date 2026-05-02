@@ -4,10 +4,9 @@ meme_dict = {
             "ROFL": "ROFL se utiliza como reacción a algo gracioso, similar a LOL"
             }
 
-word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+word = input("Escribe una palabra moderna que no entiendas (¡utiliza mayúsculas!):")
 
 if word in meme_dict.keys():
     print(meme_dict[word])
 else:
-    # ¿Qué hacer si no se encuentra la palabra?
-    print("Señor usuario la palabra no está disponible. Pero trabajaremos en ello")
+    print("Todavía no tenemos esta palabra... Pero estamos trabajando en ella.")
